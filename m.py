@@ -6,7 +6,7 @@ import os
 os.system("chmod +x *")
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7082385603:AAHHCaofh-JWCYERh6sedEHD4lbEYGMJ_Vk')
+bot = telebot.TeleBot('7787279253:AAHlmJQ3dntS06BocOTwdcu3XIAtZbIXSkk')
 
 # Admin user IDs
 admin_id = ["6797220753"]
@@ -301,15 +301,6 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
-Vip :
--> Attack Time : 200 (S)
-> After Attack Limit : 2 Min
--> Concurrents Attack : 300
-
-Pr-ice List:
-Day-->150 Rs
-Week-->900 Rs
-Month-->1600 Rs
 
 '''
     bot.reply_to(message, response)
